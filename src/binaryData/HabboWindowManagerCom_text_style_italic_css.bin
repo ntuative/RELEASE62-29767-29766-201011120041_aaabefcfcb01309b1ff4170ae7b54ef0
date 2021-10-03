@@ -1,0 +1,8 @@
+/* Habbo text style definitions */
+/* Note: Cascading not yet supported! */
+
+italic {
+	font-family: Volter;
+    font-size: 9;
+    font-style: italic;
+}

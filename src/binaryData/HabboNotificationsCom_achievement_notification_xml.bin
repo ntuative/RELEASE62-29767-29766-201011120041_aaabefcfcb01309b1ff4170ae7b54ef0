@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout name="achievement_notification" width="20" height="20" version="0.0">
+  <window>
+    <frame x="0" y="0" width="382" height="143" params="33025" style="1" caption="%24%7Bnotifications.title.achievement%7D">
+      <children>
+        <bitmap x="11" y="11" width="80" height="80" params="16" style="0" name="badge_image"/>
+        <text x="101" y="14" width="253" height="64" params="16" style="0" name="achievement_info">
+          <variables>
+            <var key="font_face" value="Volter Bold" type="String"/>
+            <var key="font_size" value="9" type="uint"/>
+            <var key="text_color" value="0xffffff" type="hex"/>
+            <var key="embed_fonts" value="true" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <button x="162" y="83" width="100" height="24" params="393233" style="0" name="post_to_facebook" caption="%24%7Bnotifications.button.achievement.post_to_facebook%7D"/>
+        <button x="268" y="83" width="100" height="24" params="131089" style="0" name="close" caption="%24%7Bnotifications.button.achievement.close%7D" width_min="100" width_max="100"/>
+      </children>
+    </frame>
+  </window>
+</layout>

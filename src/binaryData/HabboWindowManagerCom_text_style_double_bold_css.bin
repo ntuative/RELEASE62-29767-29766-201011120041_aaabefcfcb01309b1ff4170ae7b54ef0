@@ -1,0 +1,7 @@
+/* Habbo text style definitions */
+/* Note: Cascading not yet supported! */
+
+double_bold {
+	font-family: Volter Bold;
+    font-size: 18;
+}

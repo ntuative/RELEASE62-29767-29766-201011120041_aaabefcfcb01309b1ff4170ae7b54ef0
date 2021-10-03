@@ -1,0 +1,7 @@
+/* Habbo text style definitions */
+/* Note: Cascading not yet supported! */
+
+regular {
+    font-family: Volter;
+    font-size: 9;
+}

@@ -1,0 +1,8 @@
+/* Habbo text style definitions */
+/* Note: Cascading not yet supported! */
+
+double_italic {
+	font-family: Volter;
+    font-size: 18;
+    font-style: italic;
+}
